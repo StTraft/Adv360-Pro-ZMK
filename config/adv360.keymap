@@ -78,11 +78,11 @@
 
         layer_SP_CHAR {
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp F1     &kp F2    &kp F11   &kp F12        &none  &kp LC(LG(P))
-&trans     &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp ESC    &kp LBRC  &kp RBRC  &kp BACKSLASH  &none  &none
-&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(P)  &kp LPAR  &kp RPAR  &kp SEMI       &none  &none
-&kp LSHFT  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LC(N)  &kp LBKT  &kp RBKT  &kp SQT        &none  &kp ENTER
-&kp LSHFT  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans             &kp LT    &kp GT    &kp FSLH       &none  &kp RSHFT
+&trans     &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp F1     &kp F2    &kp F11   &kp F12        &none    &kp LC(LG(P))
+&trans     &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp ESC    &kp LBRC  &kp RBRC  &kp BACKSLASH  &none    &none
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(P)  &kp LPAR  &kp RPAR  &kp SEMI       &kp SQT  &none
+&kp LSHFT  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LC(N)  &kp LBKT  &kp RBKT  &kp FSLH       &none    &kp ENTER
+&kp LSHFT  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans             &kp LT    &kp GT    &kp QMARK      &none    &kp RSHFT
             >;
         };
     };
